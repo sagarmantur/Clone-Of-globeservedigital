@@ -5,11 +5,12 @@ body{
 *{
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
 nav ul{
     display: flex;
- width: 1537px;
+ width: 100%;
     list-style-type: none;
     height: 100px;
     background-color: white;
@@ -51,3 +52,25 @@ max-width: 10px;
 
     
 }
+
+.banner img{
+    width: 100%;
+   
+    
+}
+
+.container{
+    min-height: 50vh;
+    background-color: transparent;
+    color: black;
+    display: flex;
+    margin: 23px auto;
+    width: 87%;
+    border-radius: 87px;
+    background-image: url("images/bg.jpg");
+    padding: 0px 9px 23px 23px;
+}
+
+.container{
+    min-height: 100vh;
+    }
