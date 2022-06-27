@@ -11,18 +11,37 @@ nav ul{
     display: flex;
  width: 1537px;
     list-style-type: none;
-    height: 50px;
-    background-color: black;
-    color: #1ed760;
-    font-size: large;
+    height: 100px;
+    background-color: white;
+    color: #000000;
+    font-size: 1.2em;
     font-family: sans-serif;
+    font-weight: 600;
     
 }
- 
+
+nav ul :hover{
+    color: #55a14f;
+    display: inline-block;
+    position: relative;
+    text-decoration: underline;
+}
+
+
+
+
+.brandname{
+     
+    left: 0px;
+    font-size: 1.5em;
+    top: 15px;
+
+}
 nav ul li{
     padding: 16px;
     position: relative;
-    left: 1050px;
+    left: 700px;
+    top: 15px;
     
 }
 
