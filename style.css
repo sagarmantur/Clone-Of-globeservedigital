@@ -74,3 +74,297 @@ max-width: 10px;
 .container{
     min-height: 100vh;
     }
+
+h1{
+    position: relative;
+    font-size: 70px;
+    line-height: 1.3em;
+    letter-spacing: 0px;
+    text-transform: none;
+    text-align: center;
+    left: 325px;
+    top: 100px;
+
+}
+
+.tagline{
+    position: absolute;
+    font-size: 17px;
+    letter-spacing: 3px;
+    text-align: center;
+    left: 310px;
+    top: 455px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+
+.button1 {
+    position: absolute;
+    border-radius: 4px;
+    background-color: #55a14f;
+    border: none;
+    color: #000000;
+    letter-spacing: 0px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 17px;
+    width: 155px;
+    height: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    left: 570px;
+    bottom: 95px;
+  }
+  
+  .button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    color: #fff;
+    
+    
+  }
+  
+  .button1:hover span {
+    padding-right: 25px;
+    color: #fff;
+    font-size: 14px;
+    background-color: grey;
+    
+  }
+  
+  .button1:hover span:after {
+    opacity: 1;
+    right: 0;
+    color: white;
+    
+  }
+  .button1:hover{
+    background-color: grey;
+  }
+
+
+  
+  .button2 {
+    position: absolute;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 0px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #000000;
+    color: #000000;
+    letter-spacing: 0px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px;
+    width: 155px;
+    height: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    left: 755px;
+    bottom: 95px;
+  }
+  
+  .button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    color: #fff;
+    
+    
+  }
+  
+  .button2:hover span {
+    padding-right: 25px;
+    color: #fff;
+    font-size: 14px;
+   
+    
+  }
+  
+  .button2:hover span:after {
+    opacity: 1;
+    right: 0;
+    color: white;
+    
+  }
+  .button2:hover{
+    background-color: black;
+  }
+
+.icons{
+   
+    display: inline-block;
+    position: relative;
+    left: 150px;
+}
+
+  .icons{
+   padding: 0px 100px 0px 100px;
+   margin-block: 40px;
+   text-align: center;
+   font-weight: 600;
+   font-size: 25px;
+
+  }
+
+  .container2{
+    min-height: 50vh;
+    background-color: #f5f3eb;
+    color: black;
+    display: flex;
+    margin: 23px auto;
+    width: 87%;
+    border-radius: 87px;
+    
+    padding: 0px 9px 23px 23px;
+}
+
+.container2{
+    min-height: 100vh;
+    }
+
+    .container2 h1{
+      position: absolute;
+      top: 1250px;
+      right: -150px;
+      font-size: 46px;
+      color: #154020;
+    }
+
+    .container2 img{
+        position: relative;
+        top: 50px;
+        left: 50px;
+    }
+
+    .tagline2{
+      font-size: 17px;
+      position: relative;
+      top: 260px;
+      left: 75px;
+    }
+
+.container2 .button1{
+  
+  
+  top: 1450px;
+  left: 775px;
+}
+
+.container3{
+  min-height: 50vh;
+  background-color: white;
+  color: black;
+  display: flex;
+  margin: 73px 23px 23px 79px;
+  width: 87%;
+  border-radius: 87px;
+  
+  padding: 0px 9px 23px 23px;
+}
+
+.container3{
+  min-height: 100vh;
+  }
+
+  .container3 img{
+    position: relative;
+    top: 60px;
+    left: 345px;
+}
+
+.container3 h1{
+  top: 200px;
+  bottom:  2250px;
+  left: 105px;
+  letter-spacing: 1px;
+  font-size: 46px;
+  color: #154020;
+}
+
+.tagline3{
+  font-size: 17px;
+  position: absolute;
+  top: 2150px;
+  left: 213px;
+}
+
+.container3 .button1{
+    
+  top: 2250px;
+  left: 200px;  
+  
+}
+
+.container4{
+  min-height: 50vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  margin: 73px 23px 23px 79px;
+  width: 87%;
+  border-radius: 87px;
+  
+  padding: 0px 9px 23px 23px;
+}
+
+.container4{
+  min-height: 100vh;
+  }
+
+  .container4 img{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.container4 h1{
+  position: absolute;
+  top: 2890px;
+  right: -150px;
+  font-size: 46px;
+  color: #55a14f;
+}
+
+.tagline4{
+  font-size: 17px;
+  position: relative;
+  top: 350px;
+  left: 60px;
+  letter-spacing: 0px;
+  line-height: 25px;
+}
+
+
+.container4 .button1{
+    
+  top: 3100px;
+  left: 759px;
+  
+}
