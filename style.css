@@ -1,15 +1,15 @@
-body{
-    background-color: bisque;
+body {
+    background-color: rgb(255, 255, 255);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-nav ul{
+nav ul {
     display: flex;
- width: 1537px;
+    width: 1537px;
     list-style-type: none;
     height: 100px;
     background-color: white;
@@ -17,37 +17,28 @@ nav ul{
     font-size: 1.2em;
     font-family: sans-serif;
     font-weight: 600;
-    
 }
 
-nav ul :hover{
+nav ul :hover {
     color: #55a14f;
     display: inline-block;
     position: relative;
     text-decoration: underline;
 }
 
-
-
-
-.brandname{
-     
+.brandname {
     left: 0px;
     font-size: 1.5em;
     top: 15px;
-
 }
-nav ul li{
+
+nav ul li {
     padding: 16px;
     position: relative;
     left: 700px;
     top: 15px;
-    
 }
 
-.brand img{
-    
-max-width: 10px;
-
-    
+.brand img {
+    max-width: 10px;
 }
